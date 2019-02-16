@@ -1,0 +1,89 @@
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+.nav-pills > li {
+    float: right;
+}
+
+.tp-mask-wrap {
+    overflow: visible !important;
+}
+
+html .scroll-to-top {
+    left: 10px;
+    right: auto;
+}
+
+#header .header-nav-top .flag {
+    margin-left: 2px;
+}
+
+#NavbarWrapper {
+    direction: ltr;
+}
+
+#NavbarWrapper .header-logo {
+    float: left;
+}
+
+#header .header-btn-collapse-nav {
+    float: right;
+}
+
+#header .header-column .header-row {
+    clear: right;
+}
+.pull-left .nav-pills {
+    padding-top: 6px;
+}
+
+@media (min-width: 992px) {
+    #header .header-nav-main {
+        float: right;
+    }
+}
+
+@media (max-width: 991px) {
+    #header .header-nav-main nav > ul li {
+        text-align: right;
+    }
+
+    #header .header-nav-main nav > ul li a .fa-caret-down {
+        right: auto;
+    }
+}
+
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .dropdown-toggle {
+    border-radius: 4px 0 0 4px;
+}
+
+#footer .footer-ribbon:before {
+    border-right: 0;
+}
+
+#RequestPackagePage label.control-label {
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.gmap_marker {
+    width: 60px;
+    text-align: center;
+}
+
+.gmap_marker strong {
+    display: inline-block;
+    position: relative;
+    right: 13px;
+}
+
+.thumb-info .thumb-info-action-icon {
+    border-radius: 0 0 0 25px;
+}
+
+.thumb-info .thumb-info-action-icon.reverse {
+    border-radius: 0 0 25px 0;
+    right: auto;
+}

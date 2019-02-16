@@ -1,0 +1,207 @@
+#header #HeaderPhoneNumber {
+    float: left !important;
+    direction: rtl;
+}
+
+#header #HeaderPhoneNumber .nav-pills > li {
+    float: right;
+}
+
+#header #HeaderPhoneNumber .dropdown-menu li {
+    text-align: right;
+}
+
+#header .header-btn-collapse-nav {
+    margin-top: 23px;
+}
+.nav-pills>li {
+    float: left;
+}
+#header .header-top .header-nav-top .nav-pills>li
+{
+   float:right;
+}
+
+.PortfolioModule__portfolio_item {
+    height: 250px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.PortfolioModule__portfolio_item h3,
+.PortfolioModule__portfolio_item .buttons {
+    position: absolute;
+    opacity: 0;
+    transition: all ease 0.4s;
+    width: 100%;
+    text-align: center;
+}
+
+.PortfolioModule__portfolio_item h3 {
+    margin: 0;
+    padding: 10px;
+    opacity: 0;
+    background-color: #1D7FBE;
+    color: #fff;
+    bottom: 0;
+}
+
+.PortfolioModule__portfolio_item .buttons {
+    top: 125px;
+    margin-top: -20px;
+}
+
+.PortfolioModule__portfolio_item:hover img {
+    transition: all ease 0.4s;
+}
+
+.PortfolioModule__portfolio_item:hover h3,
+.PortfolioModule__portfolio_item:hover .buttons {
+    opacity: 1;
+}
+
+.PortfolioModule__portfolio_item:hover img {
+    -webkit-transform: translateY(-18px);
+    -moz-transform: translateY(-18px);
+    -ms-transform: translateY(-18px);
+    -o-transform: translateY(-18px);
+    transform: translateY(-18px);
+}
+
+.PortfolioModule_categories {
+    text-align: center;
+    margin-bottom: 20px;
+    background: #F4F4F4;
+    border-top: 2px solid #0088CC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 6px -3px;
+}
+
+.PortfolioModule_categories .PortfolioModule__category {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.PortfolioModule_categories .PortfolioModule__category a {
+    display: inline-block;
+    padding: 7px 15px;
+    background-color: transparent;
+    color: #1D7FBE;
+    transition: ease all .4s;
+}
+
+.PortfolioModule_categories .PortfolioModule__category a.active,
+.PortfolioModule_categories .PortfolioModule__category a:active,
+.PortfolioModule_categories .PortfolioModule__category a:focus,
+.PortfolioModule_categories .PortfolioModule__category a:hover {
+    background-color: #0088cc;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.m_slider .item {
+    margin: 10px;
+}
+
+.module_title {
+    text-align: center;
+    margin-bottom: .7em;
+    font-size: 2.5em;
+}
+
+.flag.flag-en {
+    background-position: -160px -154px;
+}
+
+.flag.flag-ar {
+    background-position: -128px -165px;
+}
+
+#footer .footer-copyright nav ul li {
+    border-right: 0;
+}
+#footer .footer-copyright nav ul li {
+    border-left: 0;
+}
+
+#FlashMessage .alert {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+#RequestPackagePage label.control-label {
+    text-align: left;
+}
+
+#RequestPackagePage #RequestPageFormWrapper {
+    background-color: #eff4f9 /*#e3e3e3*/;
+    padding: 20px 30px;
+
+}
+
+@media (min-width: 768px) {
+    #RequestPackagePage form {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+#RequestPackagePage form input.form-control,
+#RequestPackagePage form select.form-control {
+    height: 45px;
+}
+
+#RequestPackagePage form .btn {
+    min-width: 150px;
+background-color: #d05b00;
+    border: 1px solid #a43100;
+    box-shadow: 0 3px 4px -1px rgba(0,0,0,0.3);
+    color: #FFFFFF;
+    font-family: "Gotham SSm A","Gotham SSm B",Arial,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    letter-spacing: .5px;
+
+}
+
+.thumb-info {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+@media all and (min-width: 768px){
+    .thumb-info {
+        height: 250px;
+    }
+
+    .thumb-info .thumb-info-wrapper,.thumb-info img {
+        height: 100%;
+    }
+}
+
+.thumb-info:hover .thumb-info-action-icon.reverse {
+    left: 0;
+    top: 0;
+}
+
+.thumb-info .thumb-info-action-icon.reverse {
+    border-radius: 0 0 25px 0;
+    left: -100px;
+    top: -100px;
+}
+
+.text_red {
+    color: red;
+}
+@media(max-width: 991px)
+{
+ #header .header-btn-collapse-nav {
+    margin-top: -33px;
+}
+}
